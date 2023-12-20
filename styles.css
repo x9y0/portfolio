@@ -1,0 +1,23 @@
+body {
+  background-color: #2d2d30;
+}
+
+a {
+  color: rgb(208, 255, 0);
+  font-family: "Inter", sans-serif;
+}
+
+button {
+    background-color: rgb(208, 255, 0);
+    border: none;
+    color: black;
+    font-family: 'DM Mono', monospace;
+    height: 50px;
+    width: 200px;
+    font-size: 35px;
+}
+
+h3, h1, p, ul {
+  color: white;
+  font-family: 'DM Mono', monospace;
+}
