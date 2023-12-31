@@ -28,3 +28,7 @@ h3, h1, p, ul {
   font-family: myFont;
   /* font-family: 'DM Mono', monospace; */
 }
+
+.social {
+  display: inline-block; /* or display: flex; */
+}
