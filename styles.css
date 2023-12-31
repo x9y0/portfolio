@@ -1,3 +1,8 @@
+@font-face{
+  font-family: myFont;
+  src:url(./OCR_B_Std_Medium.otf)
+}
+
 body {
   background-color: #2d2d30;
 }
@@ -11,13 +16,15 @@ button {
     background-color: rgb(208, 255, 0);
     border: none;
     color: black;
-    font-family: 'DM Mono', monospace;
+    font-family: myFont;
     height: 50px;
     width: 200px;
     font-size: 35px;
+    /* font-family: 'DM Mono', monospace; */
 }
 
 h3, h1, p, ul {
   color: white;
-  font-family: 'DM Mono', monospace;
+  font-family: myFont;
+  /* font-family: 'DM Mono', monospace; */
 }
