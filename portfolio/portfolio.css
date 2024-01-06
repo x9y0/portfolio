@@ -12,7 +12,7 @@ a {
   font-family: "Inter", sans-serif;
 }
 
-button {
+/* button {
     background-color: rgb(208, 255, 0);
     border: none;
     color: black;
@@ -20,8 +20,8 @@ button {
     height: 50px;
     width: 200px;
     font-size: 35px;
-    /* font-family: 'DM Mono', monospace; */
-}
+    font-family: 'DM Mono', monospace;
+} */
 
 h3, h1, p, ul {
   color: white;
