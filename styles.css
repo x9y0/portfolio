@@ -1,5 +1,10 @@
+@font-face{
+  font-family: myFont;
+  src:url(./fonts/IBMPlexMono-Regular.ttf)
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: myFont;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +24,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.8vw; /* Adjust font size relative to viewport width */
+  font-size: 1.7vw; /* Adjust font size relative to viewport width */
   width: 80vw; /* Adjust width relative to viewport width */
 }
 
@@ -52,10 +57,12 @@ html {
 
 .bottom-link a {
   color: rgb(0, 0, 0);
+  font-family: MyFont;
   font-weight: bold;
   text-decoration: none;
   margin-right: 20px; /* Adjust as needed to create space between links */
 }
+
 
 @media (max-width: 768px) { /* Adjust styles for smaller screens like tablets */
   .typewriter {
